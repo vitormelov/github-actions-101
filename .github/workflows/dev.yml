@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.3.0
       - name: Setup Node.js environment
-        uses: actions/setup-node@3.6.0
+        uses: actions/setup-node@v3.6.0
         with: 
           node-version: 16.13.x
           cache: yarn
